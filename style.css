@@ -445,14 +445,14 @@ body {
 
 .arrow-prev {
     left: 0;
-    background-image: url(/img/arrow-prev.svg);
+    background-image: url(./img/arrow-prev.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .arrow-next {
     right: 0;
-    background-image: url(/img/arrow-next.svg);
+    background-image: url(./img/arrow-next.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -547,7 +547,7 @@ body {
   height: 624px;
   margin: 0;
   padding: 0;
-  background-image: url(/img/map.png);
+  background-image: url(./img/map.png);
 }
 
 /* Footer
