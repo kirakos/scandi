@@ -18,7 +18,7 @@ p {
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  background-color: #EFE6E4;
+  background-color: #efe6e4;
   color: #533738;
   font-size: 18px;
   line-height: 30px;
@@ -59,7 +59,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: inherit;
-
 }
 
 .header__tel a:hover {
@@ -102,7 +101,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  transition: background-color .1s linear;
+  transition: background-color 0.1s linear;
 }
 
 .btn:hover {
@@ -251,7 +250,6 @@ body {
   opacity: 1;
 }
 
-
 .work__content {
   height: 100%;
   position: absolute;
@@ -266,7 +264,6 @@ body {
   opacity: 0;
 }
 
-
 .work__content-title {
   width: 50%;
   margin: 0 auto;
@@ -276,9 +273,7 @@ body {
   font-size: 30px;
   line-height: 37px;
   text-align: center;
-  color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 
 .work__content-text {
@@ -287,7 +282,7 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 35px;
 }
 
@@ -311,9 +306,8 @@ body {
 /* Team
 ========================= */
 
-
 .team {
-  background-color: #E2C4BA;
+  background-color: #e2c4ba;
 }
 
 .team__title {
@@ -334,8 +328,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  mb35px
-
 }
 
 .team__member {
@@ -349,13 +341,11 @@ body {
   line-height: 30px;
 }
 
-
-
 /* Progress
 ========================= */
 .progress {
   padding-top: 35px;
-  }
+}
 
 .progress__title {
   width: 100%;
@@ -371,7 +361,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
-  
 }
 .progress__item {
   display: flex;
@@ -380,18 +369,18 @@ body {
   width: 285px;
 }
 .progress__item-number {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #8d7370;
-    margin-bottom: 20px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8d7370;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
 }
 .progress__item-text {
   font-style: normal;
@@ -399,10 +388,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   text-align: center;
-  
 }
-
-
 
 /* Testimonials
 ========================= */
@@ -427,16 +413,16 @@ body {
 }
 
 .testimonials__arrow {
-    height: 72px;
-    width: 72px;
-    align-self: center;
-    border-radius: 50%;
-    background-color: #CC8B86;
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-    transform: translateY(-50%);
-    transition: background-color .1s linear;
+  height: 72px;
+  width: 72px;
+  align-self: center;
+  border-radius: 50%;
+  background-color: #cc8b86;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  transition: background-color 0.1s linear;
 }
 
 .testimonials__arrow:hover {
@@ -444,17 +430,17 @@ body {
 }
 
 .arrow-prev {
-    left: 0;
-    background-image: url(./img/arrow-prev.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+  left: 0;
+  background-image: url(./img/arrow-prev.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .arrow-next {
-    right: 0;
-    background-image: url(./img/arrow-next.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+  right: 0;
+  background-image: url(./img/arrow-next.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .testimonials__text {
@@ -469,15 +455,11 @@ body {
   width: 407px;
 }
 
-
-
-
-
 /* Request
 ========================= */
 
 .request {
-  background-color: #8D7370;
+  background-color: #8d7370;
 }
 
 .request__inner {
@@ -489,16 +471,16 @@ body {
 .request__form {
   width: 509px;
   padding-left: 82px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .request__form--name {
   width: 508px;
   border: 0;
-  background-color: #8D7370;
-  border-bottom: 1px solid #FFFFFF;
+  background-color: #8d7370;
+  border-bottom: 1px solid #ffffff;
   transform: rotate(0.11deg);
-  color: #F6EDE9;
+  color: #f6ede9;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -509,17 +491,16 @@ body {
 .request__form--tel {
   width: 508px;
   border: 0;
-  background-color: #8D7370;
-  border-bottom: 1px solid #FFFFFF;
+  background-color: #8d7370;
+  border-bottom: 1px solid #ffffff;
   transform: rotate(0.11deg);
-  color: #F6EDE9;
+  color: #f6ede9;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 31px;
 }
-
 
 .request__title {
   font-style: normal;
@@ -529,7 +510,6 @@ body {
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 24px;
-
 }
 
 .request__text {
@@ -554,7 +534,6 @@ body {
 ============================ */
 
 .footer {
-
 }
 
 .footer__inner {
@@ -579,10 +558,3 @@ body {
 .footer__name {
   margin-left: 379px;
 }
-
-
-
-
-
-
-
